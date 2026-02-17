@@ -16,7 +16,7 @@ Default 1x circular output (`1024x1024`):
 
 - Python `>=3.11`
 - `uv` installed
-- A local MonoLisa font file (default path in this project: `/var/lib/fonts/monolisa/ttf/MonoLisa-Bold.ttf`)
+- A local MonoLisa font file
 
 ## Setup
 
@@ -74,7 +74,7 @@ uv run python generate_avatar.py \
 - `--shape circle|square`: avatar background shape.
 - `--size 1024`: output dimensions (`size x size`).
 - `--margin 72`: circle inset margin (used for `circle` only).
-- `--font /path/to/font.ttf`: font file path.
+- `--font /path/to/font.ttf`: font file path (default path/variant: `/var/lib/fonts/monolisa/ttf/MonoLisa-Bold.ttf`)
 - `--features "calt=1,liga=0,ss02=1,zero=1"`: comma-separated feature flags.
 - `--bg "#2E3440"`: background color.
 - `--fg "#88C0D0"`: text color.
