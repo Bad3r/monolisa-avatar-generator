@@ -4,6 +4,12 @@ Generate square or circular avatar images using a local MonoLisa font with expli
 
 This project renders text using HarfBuzz + FreeType, then composites a styled avatar with Pillow.
 
+## Preview
+
+Default 1x circular output (`1024x1024`):
+
+![Default 1x circular avatar](examples/avatar-0xB-nord.png)
+
 ## Requirements
 
 - Python `>=3.11`
