@@ -8,7 +8,9 @@ This project renders text using HarfBuzz + FreeType, then composites a styled av
 
 Default 1x circular output (`1024x1024`):
 
-![Default 1x circular avatar](examples/avatar-0xB-nord.png)
+<p align="center">
+  <img src="examples/avatar-0xB-nord.png" alt="Default 1x circular avatar" width="320" />
+</p>
 
 ## Requirements
 
