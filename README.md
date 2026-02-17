@@ -1,4 +1,4 @@
-# MonoLisa Avatar Generator
+# [MonoLisa](https://www.monolisa.dev/) Avatar Generator
 
 Generate square or circular avatar images using a local MonoLisa font with explicit OpenType feature control (`ss02`, `zero`, `liga`, etc.).
 
