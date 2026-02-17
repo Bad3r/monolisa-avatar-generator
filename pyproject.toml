@@ -1,0 +1,13 @@
+[project]
+name = "monolisa-avatar-generator"
+version = "0.1.0"
+description = "Generate circular avatars with MonoLisa and OpenType feature control."
+requires-python = ">=3.11"
+dependencies = [
+  "Pillow>=10.0.0",
+  "freetype-py>=2.5.1",
+  "uharfbuzz>=0.52.0",
+]
+
+[project.scripts]
+avatar-gen = "generate_avatar:main"
